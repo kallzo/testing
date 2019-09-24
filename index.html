@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Demo</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <header>
+    <nav class="main-nav">
+      <div class="logo">Kallzo</div>
+      <div class="toggle-nav" onclick="toggle()">Menu&Xi;</div>
+      <ul id="nav-items">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <h1>Demo</h1>
+  <div class="container">
+    <section id="section1">
+      <h2>Shopping List</h2>
+      <p>Enter an item, and click Add Item</p>
+      <form action="" id="myForm1">
+        <input type="text" id="items" placeholder="Enter item">
+        <input type="submit" value="Add Item" id="sub">
+      </form>
+      <ul id="myList"></ul>
+    </section><!-- #section 1-->
+    <section id="section2">
+      <h2>Calculator</h2>
+      <p>Enter two numbers in each input area, choose an operator, and click calculate</p>
+      <form action="" id="myForm">
+        <input type="text" id="item1" placeholder="Enter number">
+        <input type="text" id="item2" placeholder="Enter number">
+        <select name="" id="operator">
+          <option value="">Operator</option>
+          <option value="+">Add</option>
+          <option value="-">Subtract</option>
+          <option value="*">Multiply</option>
+          <option value="/">Divide</option>
+        </select>
+        <input type="submit" value="Calculate" id="sub">
+      </form>
+      <p id="result"></p>
+      <p style="color:red" id="error"></p>
+    </section><!-- #section 2 -->
+    <section id="setion3">
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, iure dolore. Commodi optio alias
+        necessitatibus labore? Mollitia distinctio quis at, totam ullam repellendus laborum dolorem sapiente ex
+        laboriosam laudantium quisquam, voluptatibus labore iure! Nam esse, voluptatem, tempora commodi corrupti eos
+        molestiae, animi magnam pariatur architecto magni beatae. Vero, eligendi. Numquam.</p>
+    </section><!-- #section 3-->
+  </div><!-- /container -->
+  <script src="js/script.js"></script>
+</body>
+
+</html>
